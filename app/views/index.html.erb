@@ -1,0 +1,14 @@
+<h2> Hi <%= current_user.email %></h2>
+
+<h4>Accounts</h4>
+
+<ul>
+<% @accounts.each do |account| %>
+  <li>
+  Name:<%= account.name %>
+  </li>
+  <% end %>
+
+</ul>
+
+<%= link_to("logout", destroy_user_session_path, :method => :delete) %>

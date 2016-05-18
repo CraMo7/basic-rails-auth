@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: MyText
+  amount: 9.99
+  user_id: 1
+
+two:
+  type: MyText
+  amount: 9.99
+  user_id: 1
